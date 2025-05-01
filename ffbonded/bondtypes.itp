@@ -16,6 +16,7 @@
      NG2S2    HGP1    1   0.1000        401664.00
 ; additional bonds needed for sidechain chemistry
      CT2     CG2R61   1   0.14900000    192464.00
+     CT      OG301    1   0.14150000    301248.00
      CT2     OG301    1   0.14150000    301248.00
      CT3     OG301    1   0.14150000    301248.00
    CG2R61    FGR1     1   0.17400000    292880.00 ;taken from C-Cl
@@ -23,4 +24,5 @@
      NH1     CP1      1   0.14550000    320000.00
      CP1      TC      1   0.14900000    209200.00
 ; Original CHARMM...
-
+      CC     OG2D1     1   0.12200000    627600.00 ; taken from CG202-OG2D1
+      CC     OG301     1   0.14150000    301248.00 ; taken from CG301-OG301
