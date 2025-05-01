@@ -24,5 +24,4 @@
      NH1     CP1      1   0.14550000    320000.00
      CP1      TC      1   0.14900000    209200.00
 ; Original CHARMM...
-      CC     OG2D1     1   0.12200000    627600.00 ; taken from CG202-OG2D1
       CC     OG301     1   0.14150000    301248.00 ; taken from CG301-OG301
