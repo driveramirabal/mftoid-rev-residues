@@ -1947,6 +1947,128 @@
            NL    -CLP   CA    CB
            CLP   +NL    CA    OL
 
+
+[ ARO ]
+; peptoid residue with ethylphenyl sidechain
+ [ atoms ]
+        NL      NH1     -0.42  0
+        CA      CT2     0.03   1
+        HA1     HB     	0.09   2
+        HA2     HB     	0.09   3
+        CB      CT2     0.03   4
+        HB1     HA      0.09   5
+        HB2     HA      0.09   6
+        CLP     TC      0.51   7
+        OL      O       -0.51  8
+        CD      CA      0.00   9
+        CG      CT2     -0.18  10
+        HG1     HA      0.09   11
+        HG2     HA      0.09   12
+        CE1     CA      -0.115 13
+        HE1     HP      0.115  14
+        CF1     CA      -0.115 15
+        HF1     HP      0.115  16
+        CZ      CA      -0.115 17
+        HZ      HP      0.115  18
+        CE2     CA      -0.115 19
+        HE2     HP      0.115  20
+        CF2     CA      -0.115 21
+        HF2     HP      0.115  22
+ [ bonds ]
+        NL      CA
+        CA      CLP
+        NL      CB
+        CLP     +NL
+        CA      HA1
+        CA      HA2
+        CB      HB1
+        CB      HB2
+        CG      CB
+        CG      CD
+        CE2     CD
+        CF1     CE1
+        CZ      CF2
+        CG      HG1
+        CG      HG2
+        CE1     HE1
+        CE2     HE2
+        CF1     HF1
+        CF2     HF2
+        CZ      HZ
+        CLP     OL
+        CE1     CD
+        CZ      CF1
+        CF2     CE2
+ [ impropers ]
+           NL    -CLP   CA    CB
+           CLP   +NL    CA    OL
+
+[ ACR ]
+; peptoid residue with t-butyl acrylate sidechain
+; backbone info from NCEn, and t-butyl added from CGenFF
+ [ atoms ]
+           NL NH1    -0.42 0
+           CB CT2    -0.18 1
+          HB1 HA2     0.09 2
+          HB2 HA2     0.09 3
+           CC CT2    -0.18 4
+          HC1 HA2     0.09 5
+          HC2 HA2     0.09 6
+           CD CC      0.77 7
+          OE1 OG2D1  -0.50 8 ; This atom type is a carbonyl O for carboxylic acids from CGenFF 
+          OE2 OG301  -0.33 9 ; This atom type is an ether oxygen from CGenFF 
+           CG CT      0.23 10
+          CF1 CT3    -0.27 11
+         HF11 HA3     0.09 12
+         HF12 HA3     0.09 13
+         HF13 HA3     0.09 14
+          CF2 CT3    -0.27 15
+         HF21 HA3     0.09 16
+         HF22 HA3     0.09 17
+         HF23 HA3     0.09 18
+          CF3 CT3    -0.27 19
+         HF31 HA3     0.09 20
+         HF32 HA3     0.09 21
+         HF33 HA3     0.09 22
+           CA CT2     0.07 23
+          HA1 HB2     0.09 24
+          HA2 HB2     0.09 25
+          CLP TC      0.51 26
+           OL O      -0.51 27
+ [ bonds ]
+       -CLP    NL
+        NL     CB
+        CB     HB1
+        CB     HB2
+        CB     CC
+        CC     HC1
+        CC     HC2
+        CC     CD
+        CD     OE1
+        CD     OE2
+        OE2    CG
+        CG     CF1
+        CG     CF2
+        CG     CF3
+        CF1    HF11
+        CF1    HF12
+        CF1    HF13
+        CF2    HF21
+        CF2    HF22
+        CF2    HF23
+        CF3    HF31
+        CF3    HF32
+        CF3    HF33
+        NL     CA
+        CA     HA1
+        CA     HA2
+        CA     CLP
+        CLP    OL
+        CLP   +NL
+ [ impropers ]
+        NL -CLP CA CB
+        CLP CA +NL OL
+
 [ NH2 ] ; terminal residue for NH2 cap
 
  [ atoms ]
