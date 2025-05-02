@@ -76,6 +76,11 @@
       CA      NH1      CT2     5   119.50    351.46   0.000000    0.000000 ; from CGenFF for n-phenyl
 ; for peptoid NH2p
    H         NH1       H       5   120.000000   192.464000   0.00000000         0.00 ; from HGP1 NG2S2 HGP1 (amide)
+; for ACR acrylic monomer
+       O       CC    OG301     5   125.900000   753.120000   0.22576000    133888.00 ; adapted from OG2D1-CG2O2-OG302
+      CC    OG301       CT     5   109.600000   334.720000   0.22651000     25104.00 ; adapted from CG2O2-OG302-CG301
+     CT3       CT    OG301     5   111.500000   376.560000   0.00000000         0.00 ; adapted from CG331-CG301-OG301
+     CT2       CC    OG301     5   109.000000   460.240000   0.23260000     16736.00 ; adapted from CG321-CG2O2-OG302
 
 ; Original CHARMM...
 
