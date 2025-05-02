@@ -178,6 +178,13 @@ CT1      NH1      TC      CP1     9     0.000000     6.694400     1 ; from CT1--
 CT1      NH1      TC      CP1     9   180.000000    10.460000     2 ; from CT1--NH1--C--CP1
 CT       NH1      TC      CP1     9     0.000000     6.694400     1 ; from CT--NH1--C--CP1
 CT       NH1      TC      CP1     9   180.000000    10.460000     2 ; from CT--NH1--C--CP1
+; dihedrals for ACR monomer
+O        CC       OG301    CT     9   180.000000    16.108400     2 ; adapted from OG2D1-CG2O2-OG302-CG301
+OG301    CC       CT2     CT2     9   180.000000     2.217520     2 ; adapted from OG3O2-CG2O2-CG321-CG321
+CT2      CC       OG301    CT     9   180.000000     8.577200     2 ; adapted from CG321-CG2O2-OG302-CG301
+OG301    CT       CT3     HA3     9     0.000000     0.669440     3 ; adapted from OG301-CG301-CG331-HGA3
+CT3      CT       OG301    CC     9     0.000000     0.000000     3 ; adapted from OG2D1-CG2O2-OG302-CG301
+OG301    CC       CT2     HA2     9     0.000000     0.000000     3 ; adapted from OG2D1-CG2O2-OG302-CG301
 ; Original CHARMM...
 
 
