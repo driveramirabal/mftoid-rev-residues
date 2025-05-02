@@ -70,7 +70,8 @@ FILENAMES = {
     'X': 'NAEk',
     'J': 'EME',
     'O': 'NOE',
-    'U': 'DECp'
+    'U': 'DECp',
+    'a': 'ACRp'
 }
 
 endcap_params = {
