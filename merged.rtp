@@ -2125,3 +2125,189 @@
       CAT   HT3
  [ impropers ]
       NL   -CLP   CAT   CA
+
+[ SNAp ] ; sulfonamide peptoid
+ [ atoms ]
+      NL    NH1    -0.42 0
+      CB    CT2    -0.04 1
+      HB1   HA2     0.09 2
+      HB2   HA2     0.09 3
+      CG    CT2    -0.12 4
+      HG1   HA2     0.09 5
+      HG2   HA2     0.09 6
+      CD    CG2R61  0.00 7
+      CE1   CG2R61 -0.12 8
+      HE1   HGR61   0.12 9
+      CE2   CG2R61 -0.12 10
+      HE2   HGR61   0.12 11
+      CZ1   CG2R61 -0.07 12
+      HZ1   HGR61   0.14 13
+      CZ2   CG2R61 -0.07 14
+      HZ2   HGR61   0.14 15
+      CH    CG2R61 -0.03 16
+      SL    SG3O2   0.60 17
+      OS1   OG2P1  -0.39 18 
+      OS2   OG2P1  -0.39 19
+      NS    NG321  -0.78 20
+      HS1   HGP1    0.43 21
+      HS2   HGP1    0.43 22
+      CA    CT2     0.03 23
+      HA1   HB2     0.09 24
+      HA2   HB2     0.09 25
+      CLP   TC      0.51 26
+      OL    O      -0.51 27          
+ [ bonds ]
+     -CLP  NL
+      NL   CB
+      CB   HB1
+      CB   HB2
+      CB   CG
+      CG   HG1
+      CG   HG2
+      CG   CD
+      CD   CE1
+      CE1  HE1
+      CD   CE2
+      CE2  HE2
+      CE1  CZ1
+      CZ1  HZ1
+      CE2  CZ2
+      CZ2  HZ2
+      CZ1  CH
+      CZ2  CH
+      CH   SL
+      SL   OS1
+      SL   OS2
+      SL   NS
+      NS   HS1
+      NS   HS2
+      NL   CA
+      CA   HA1
+      CA   HA2
+      CA   CLP
+      CLP  OL
+      CLP +NL
+[ impropers ]
+      NL  -CLP  CA  CB
+      CLP  CA  +NL  OL
+
+[ AROp ]
+; peptoid residue with ethylphenyl sidechain
+ [ atoms ]
+        NL      NH1    -0.42   0
+        CB      CT2     0.03   1
+	HB1     HA2     0.09   2
+        HB2     HA2     0.09   3
+        CG      CT2    -0.18   4
+	HG1     HA2     0.09   5
+        HG2     HA2     0.09   6
+        CD      CA      0.00   7
+        CE1     CA     -0.115  8
+        HE1     HP      0.115  9
+        CE2     CA     -0.115  10
+	HE2     HP      0.115  11
+        CF1     CA     -0.115  12
+        HF1     HP      0.115  13
+        CF2     CA     -0.115  14
+        HF2     HP      0.115  15
+        CZ      CA     -0.115  16
+        HZ      HP      0.115  17
+        CA      CT2     0.03   18
+        HA1     HB2    	0.09   19
+	HA2     HB2    	0.09   20
+	CLP     TC      0.51   21
+	OL      O      -0.51   22
+ [ bonds ]
+        NL      CA
+        CA      CLP
+        NL      CB
+        CLP     +NL
+        CA      HA1
+        CA      HA2
+        CB      HB1
+        CB      HB2
+        CG      CB
+        CG      CD
+        CE2     CD
+        CF1     CE1
+        CZ      CF2
+        CG      HG1
+        CG      HG2
+        CE1     HE1
+        CE2     HE2
+        CF1     HF1
+        CF2     HF2
+        CZ      HZ
+        CLP     OL
+        CE1     CD
+        CZ      CF1
+        CF2     CE2
+ [ impropers ]
+           NL    -CLP   CA    CB
+           CLP   +NL    CA    OL
+
+[ ACRp ]
+; peptoid residue with t-butyl acrylate sidechain
+; backbone info from NCEn, and t-butyl added from CGenFF
+ [ atoms ]
+           NL NH1    -0.42 0
+           CB CT2    -0.18 1
+          HB1 HA2     0.09 2
+          HB2 HA2     0.09 3
+           CC CT2    -0.18 4
+          HC1 HA2     0.09 5
+          HC2 HA2     0.09 6
+           CD CC      0.77 7
+          OE1 O      -0.50 8 ; This atom type is a carbonyl O 
+          OE2 OG301  -0.33 9 ; This atom type is an ether oxygen from CGenFF 
+           CG CT      0.23 10
+          CF1 CT3    -0.27 11
+          HF1 HA3     0.09 12
+          HF2 HA3     0.09 13
+          HF3 HA3     0.09 14
+          CF2 CT3    -0.27 15
+          HF4 HA3     0.09 16
+          HF5 HA3     0.09 17
+          HF6 HA3     0.09 18
+          CF3 CT3    -0.27 19
+          HF7 HA3     0.09 20
+          HF8 HA3     0.09 21
+          HF9 HA3     0.09 22
+           CA CT2     0.07 23
+          HA1 HB2     0.09 24
+          HA2 HB2     0.09 25
+          CLP TC      0.51 26
+           OL O      -0.51 27
+ [ bonds ]
+       -CLP    NL
+        NL     CB
+        CB     HB1
+        CB     HB2
+        CB     CC
+        CC     HC1
+        CC     HC2
+        CC     CD
+        CD     OE1
+        CD     OE2
+        OE2    CG
+        CG     CF1
+        CG     CF2
+        CG     CF3
+        CF1    HF1 
+        CF1    HF2
+        CF1    HF3
+        CF2    HF4
+        CF2    HF5
+        CF2    HF6
+        CF3    HF7
+        CF3    HF8
+        CF3    HF9
+        NL     CA
+        CA     HA1
+        CA     HA2
+        CA     CLP
+        CLP    OL
+        CLP   +NL
+ [ impropers ]
+        NL -CLP CA CB
+        CLP CA +NL OL

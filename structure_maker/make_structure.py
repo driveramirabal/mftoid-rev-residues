@@ -71,7 +71,9 @@ FILENAMES = {
     'J': 'EME',
     'O': 'NOE',
     'U': 'DECp',
-    'a': 'ACRp'
+    'a': 'ACRp',
+    '%': 'AROp',
+    'B': 'SNAp'
 }
 
 endcap_params = {
